@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    app:cardElevation="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/productNameTVID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textColor="#263238"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            />
+        <ImageView
+            android:id="@+id/productImageIMGID"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/productNameTVID"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="4dp"
+            />
+        <TextView
+            android:id="@+id/productPriceTVID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/productImageIMGID"
+            android:layout_marginTop="4dp"
+            android:text="Product Price"
+            android:textColor="#0d47a1"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/productDescriptionTVID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/productPriceTVID"
+            android:layout_marginTop="4dp"
+            android:text="Product Description fgjsfgjsyhjsfhjfhjfhyjkghsgj"
+            android:textColor="#0d47a1"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:maxLines="1"
+            android:maxLength="30"
+            android:ellipsize="end"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
